@@ -27,12 +27,12 @@ class _MainScreen extends StatefulWidget {
 class _MainScreenState extends State<_MainScreen> {
   String _linkMessage;
   bool _isCreatingLink = false;
-  String _testString =
-      "To test: long press link and then copy and click from a non-browser "
-      "app. Make sure this isn't being tested on iOS simulator and iOS xcode "
-      "is properly setup. Look at firebase_dynamic_links/README.md for more "
-      "details.";
-
+  // String _testString =
+  //     "To test: long press link and then copy and click from a non-browser "
+  //     "app. Make sure this isn't being tested on iOS simulator and iOS xcode "
+  //     "is properly setup. Look at firebase_dynamic_links/README.md for more "
+  //     "details.";
+  String _testString="";
   @override
   void initState() {
     super.initState();
